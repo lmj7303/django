@@ -1,5 +1,5 @@
 from django.urls import path
-from django.generic.detail import Detail
+from django.views.generic.detail import Detail
 from .views import *
 from .models import Photo
 
