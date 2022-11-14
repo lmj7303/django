@@ -33,4 +33,4 @@ class PhotoDeleteView(DeleteView):
 class PhotoUpdateView(UpdateView):
     model= Photo
     fields=['photo','text']
-    template_name= 'photo/update.html'
+    template_name= 'photo/update.html' 
